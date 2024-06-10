@@ -1,0 +1,159 @@
+.om_mig{
+    display: inline-block; 
+    background-color: white; 
+    border: 4px solid blue; 
+    padding: 15px;
+    margin-top: 25%;
+    margin-left: 20%;
+    margin-right: 10%;
+    font-size: 20px;
+}
+
+
+.mig_med_frame{
+    margin-top: 8%;
+    margin-bottom: 20%;
+   margin-left: -6%;
+    transform: scale(0.8);
+}
+
+.kontakt{
+    display: inline-block; 
+    background-color: white; 
+    border: 4px solid blue; 
+    padding: 25px;
+    margin-top: -10%;
+    margin-left: 20%;
+    margin-right: 10%;
+    font-size: 20px;
+}
+
+.mig_med_frame2{
+    margin-top: 8%;
+    margin-bottom: 20%;
+   margin-left: 3%;
+    transform: scale(0.8);
+}
+
+h2{
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.profil_fremtid{
+    display: inline-block; 
+    background-color: white; 
+    border: 4px solid blue; 
+    padding: 25px;
+    margin-top: -20%;
+    margin-left: 20%;
+    margin-right: 10%;
+    font-size: 20px;
+}
+
+.kompetencer{
+    display: inline-block; 
+    background-color: white; 
+    border: 4px solid blue; 
+    padding: 25px;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+/******** DESKTOP *********/
+
+@media (min-width: 750px) {
+
+    .om_mig, .kontakt, .profil_fremtid, .kompetencer {
+        display: inline-block; 
+        background-color: white; 
+        border: 4px solid blue; 
+        padding: 25px;
+        font-size: 20px;
+        max-width: 400px; /* Juster denne værdi for at kontrollere bredden */
+        width: 100%; /* Sikrer at boksen fylder hele bredden op til max-width */
+    max-height: 500px; /* Maksimumshøjde for boksene */
+    height: auto; /* Tilpasser højden automatisk efter indholdet */
+   
+    }
+
+
+    .om_mig_grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .om_mig{
+        display: inline-block; 
+        background-color: white; 
+        border: 4px solid blue; 
+        padding: 15px;
+        margin-top: 10%;
+        margin-left: 20%;
+        margin-right: 10%;
+        font-size: 30px;
+        max-height: 400px; 
+    }
+
+
+    .mig_med_frame{
+        margin-top: 0%;
+        margin-bottom: 20%;
+       margin-left: -6%;
+        transform: scale(0.8);
+    }
+
+    .mig_med_frame2{
+        margin-top: 0%;
+        margin-bottom: 20%;
+       margin-left: -6%;
+        transform: scale(0.8);
+    }
+
+    .kontakt{
+        display: inline-block; 
+        background-color: white; 
+        border: 4px solid blue; 
+        padding: 25px;
+        margin-top: -15%;
+        margin-left: 20%;
+        margin-right: 10%;
+        font-size: 30px;
+        max-height: 300px;
+    }
+
+    .profil_fremtid{
+        display: inline-block; 
+        background-color: white; 
+        border: 4px solid blue; 
+        padding: 25px;
+        margin-top: -50%;
+        margin-left: 20%;
+        margin-right: 10%;
+        font-size: 30px;
+        max-height: 1050px;
+    }
+
+
+    .kompetencer{
+        display: inline-block; 
+        background-color: white; 
+        border: 4px solid blue; 
+        padding: 25px;
+        margin-top: 5%;
+        margin-left: 4%;
+        margin-right: 16%;
+        margin-bottom: 10%;
+        font-size: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        max-height: 350px;
+    }
+
+}
